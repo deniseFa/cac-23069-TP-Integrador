@@ -134,6 +134,19 @@
          height: 100%;
          width: auto !important;
     }
+  
+    .botones-slider.pt-2 {
+      display: grid;
+    }
+  
+     .botones-slider.pt-2>button.btn {
+       font-size: 12px;
+   }
+  
+    .botones-slider button.btn {
+      margin-bottom: 7px; 
+    }
+
     /*textos del banner*/
      .carousel-caption.position-absolute.p-3.text-carousel {
          left: 7% !important;
